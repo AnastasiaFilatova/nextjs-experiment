@@ -10,7 +10,8 @@ export default class Action extends React.Component {
         let action_style = _.get(action, 'style', null) || 'link';
         let action_icon_pos = _.get(action, 'icon_position', null) || 'right';
         return (
-            <Link href="https://fivexl.io"
+            <Link href="https://fivexl.io">
+                <Image>
             </Link>
         );
     }
