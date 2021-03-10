@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import {Link, withPrefix, classNames} from '../utils';
 import Icon from './Icon';
-import 
+import Image from 'next/image'
 
 export default class Action extends React.Component {
     render() {
