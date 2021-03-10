@@ -67,7 +67,7 @@ export default class Body extends React.Component {
                 			)
                 		) : 
                 			<Announcement {...this.props} site={this.props} />
-                	)}
+                	)}*/
                 	<Header {...this.props} />
                 	<main id="content" className="site-content">
                 		{this.props.children}
