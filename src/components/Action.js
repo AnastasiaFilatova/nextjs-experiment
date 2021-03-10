@@ -12,7 +12,7 @@ export default class Action extends React.Component {
         let action_icon_pos = _.get(action, 'icon_position', null) || 'right';
         return (
             <Link href="https://fivexl.io">
-                <Image src="/me.png"
+                <Image src="images/"
         alt="Picture of the author"
         width={500}
         height={500}
