@@ -60,7 +60,7 @@ export default class Body extends React.Component {
                     <body className={'layout-' + _.get(this.props, 'data.config.layout_type', null) + ' style-' + _.get(this.props, 'data.config.style', null) + ' palette-' + _.get(this.props, 'data.config.palette', null) + ' mode-' + _.get(this.props, 'data.config.mode', null) + ' font-' + _.get(this.props, 'data.config.base_font', null)} />
                 </Helmet>
                 <div id="site-wrap" className="site">
-                	/{(_.get(this.props, 'data.config.header.has_anncmnt', null) && _.get(this.props, 'data.config.header.anncmnt_content', null)) && (
+                	/*{(_.get(this.props, 'data.config.header.has_anncmnt', null) && _.get(this.props, 'data.config.header.anncmnt_content', null)) && (
                 		_.get(this.props, 'data.config.header.anncmnt_is_home_only', null) ? (
                 			(_.get(this.props, 'page.__metadata.urlPath', null) === '/') && (
                 				<Announcement {...this.props} site={this.props} />
