@@ -8,7 +8,6 @@
     "base_font": "serif",
     "header": {
         "title": "Andrey Devyatkin",
-        "logo": "images/FXLBADGE_TEAM-01-old-style-887x1024.png",
         "logo_alt": "Fivexl logo",
         "has_primary_nav": true,
         "primary_nav_links": [
